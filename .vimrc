@@ -24,6 +24,7 @@ Plugin 'scrooloose/nerdtree'
 map <C-o> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
+let g:NERDTreeWinSize=60
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 " <============================================>
